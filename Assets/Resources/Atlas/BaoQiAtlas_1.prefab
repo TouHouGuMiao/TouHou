@@ -1,0 +1,358 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: BaoQiAtlas_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 40b02331c863dc94087ade6ad82e513c, type: 2}
+  mSprites:
+  - name: BaoQi_ShenJiang
+    x: 963
+    y: 126
+    width: 133
+    height: 134
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BaoQi_Task
+    x: 1246
+    y: 441
+    width: 130
+    height: 130
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BaoQi_Yuxi
+    x: 963
+    y: 261
+    width: 131
+    height: 140
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BUFF_caifu
+    x: 642
+    y: 383
+    width: 320
+    height: 320
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BUFF_fashujingtong
+    x: 642
+    y: 62
+    width: 320
+    height: 320
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BUFF_jianyingrenjia
+    x: 963
+    y: 704
+    width: 320
+    height: 320
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BUFF_juexing
+    x: 642
+    y: 704
+    width: 320
+    height: 320
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BUFF_kuangbaodaji
+    x: 0
+    y: 62
+    width: 320
+    height: 320
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BUFF_qiancheng
+    x: 0
+    y: 383
+    width: 320
+    height: 320
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BUFF_yinghuapifu
+    x: 0
+    y: 704
+    width: 320
+    height: 320
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BUFF_zhanshenlinzhu
+    x: 321
+    y: 62
+    width: 320
+    height: 320
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BUFF_zhanwubusheng
+    x: 321
+    y: 383
+    width: 320
+    height: 320
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BUFF_zhimou
+    x: 321
+    y: 704
+    width: 320
+    height: 320
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TY_BaiSeWaiKuang
+    x: 1097
+    y: 138
+    width: 131
+    height: 131
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 1
+  - name: TY_CaiDanTuBiaoWaiKuang_Down
+    x: 963
+    y: 553
+    width: 178
+    height: 150
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 2
+    paddingBottom: 2
+  - name: TY_CaiDanTuBiaoWaiKuang_Up
+    x: 963
+    y: 402
+    width: 150
+    height: 150
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 2
+    paddingBottom: 2
+  - name: TY_CaiDanWenBenKuang
+    x: 1274
+    y: 647
+    width: 46
+    height: 56
+    borderLeft: 17
+    borderRight: 17
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 3
+    paddingTop: 1
+    paddingBottom: 1
+  - name: TY_ChengSeWaiKuang
+    x: 1095
+    y: 270
+    width: 131
+    height: 131
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 1
+  - name: TY_HongSeAnNiuFenGeXian
+    x: 1142
+    y: 567
+    width: 90
+    height: 4
+    borderLeft: 31
+    borderRight: 35
+    borderTop: 2
+    borderBottom: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TY_LanSeWaiKuang
+    x: 1142
+    y: 572
+    width: 131
+    height: 131
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 1
+  - name: TY_LvSeAnNiuFenGeXian
+    x: 1227
+    y: 284
+    width: 120
+    height: 4
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TY_LvSeWaiKuang
+    x: 1114
+    y: 421
+    width: 131
+    height: 131
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 1
+  - name: TY_ZiSeWaiKuang
+    x: 1227
+    y: 289
+    width: 131
+    height: 131
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 1
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1

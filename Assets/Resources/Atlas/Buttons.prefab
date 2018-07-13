@@ -1,0 +1,462 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Buttons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: c76eb21145b474748a72a57d0db4bf51, type: 2}
+  mSprites:
+  - name: Btn_CaiDan_Down
+    x: 276
+    y: 450
+    width: 129
+    height: 62
+    borderLeft: 52
+    borderRight: 44
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_CaiDan_Up
+    x: 150
+    y: 367
+    width: 129
+    height: 62
+    borderLeft: 54
+    borderRight: 23
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BTN_DaHaoYuanXingHongSeBtn
+    x: 0
+    y: 14
+    width: 100
+    height: 100
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_FanHuiAnNiu
+    x: 281
+    y: 380
+    width: 68
+    height: 68
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BTN_goumai
+    x: 232
+    y: 192
+    width: 110
+    height: 64
+    borderLeft: 30
+    borderRight: 30
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_GuanBi
+    x: 256
+    y: 297
+    width: 68
+    height: 68
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_hongse
+    x: 241
+    y: 64
+    width: 104
+    height: 62
+    borderLeft: 30
+    borderRight: 30
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BTN_HongSeAnNiuDiBan
+    x: 419
+    y: 66
+    width: 68
+    height: 68
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_huisejiahao
+    x: 417
+    y: 408
+    width: 54
+    height: 54
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_JiaHao
+    x: 393
+    y: 328
+    width: 54
+    height: 54
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BTN_JiaHao01
+    x: 347
+    y: 64
+    width: 70
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_jianHao
+    x: 344
+    y: 193
+    width: 54
+    height: 54
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BTN_KaiZhan
+    x: 0
+    y: 116
+    width: 114
+    height: 113
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BTN_KaiZhanhs
+    x: 116
+    y: 116
+    width: 114
+    height: 113
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_PuTong
+    x: 232
+    y: 128
+    width: 104
+    height: 62
+    borderLeft: 30
+    borderRight: 30
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_quhua
+    x: 419
+    y: 2
+    width: 52
+    height: 62
+    borderLeft: 28
+    borderRight: 28
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_quhuared
+    x: 344
+    y: 249
+    width: 48
+    height: 62
+    borderLeft: 34
+    borderRight: 31
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BTN_ShangFanYeJianTou_Down
+    x: 150
+    y: 431
+    width: 124
+    height: 81
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 3
+    paddingBottom: 2
+  - name: BTN_ShuaXin
+    x: 0
+    y: 364
+    width: 148
+    height: 148
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_xhanxd
+    x: 338
+    y: 136
+    width: 104
+    height: 54
+    borderLeft: 29
+    borderRight: 29
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_yeqian1
+    x: 102
+    y: 62
+    width: 137
+    height: 52
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 5
+  - name: Btn_yeqian2
+    x: 102
+    y: 5
+    width: 140
+    height: 55
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Btn_YiJianChuanZhuang_Up
+    x: 0
+    y: 231
+    width: 131
+    height: 131
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 1
+  - name: TY_ChangTiaoShenDiSe
+    x: 407
+    y: 464
+    width: 62
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TY_jiahao
+    x: 438
+    y: 286
+    width: 40
+    height: 40
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TY_JiaHaoIcon
+    x: 351
+    y: 384
+    width: 64
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 2
+    paddingTop: 2
+    paddingBottom: 2
+  - name: TY_jianhao
+    x: 438
+    y: 276
+    width: 45
+    height: 8
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TY_jianshaoanniu
+    x: 400
+    y: 229
+    width: 44
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: TY_JianTouIcon
+    x: 394
+    y: 275
+    width: 42
+    height: 51
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 2
+  - name: TY_PageTab
+    x: 133
+    y: 258
+    width: 121
+    height: 104
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 40
+    borderBottom: 35
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 4
+    paddingBottom: 4
+  - name: TY_WenBenYuanXingAnNiu
+    x: 326
+    y: 313
+    width: 65
+    height: 65
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
